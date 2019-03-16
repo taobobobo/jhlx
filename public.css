@@ -8,12 +8,16 @@
     } 
     body{
         width:1000px;
-}
+    }
  .header .tel b {
     font-size: 20px;
     font-weight: bold;
+   }
+    
+    
 }
-}
+
+
 .top{
     background: #f7f7f7;
 }
