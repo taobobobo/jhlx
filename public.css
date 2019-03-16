@@ -7,7 +7,7 @@
         overflow: hidden;
     } 
     body{
-        max-width: 1000px;
+        width: 1000px;
     }
     .header .tel b{
         font-size: 18px;
