@@ -1,0 +1,538 @@
+.layout{
+    width: 1000px;
+    margin: 0 auto;
+}
+@media screen and (max-width:1000px){
+    .layout{
+        overflow: hidden;
+    } 
+    body{
+        max-width: 1000px;
+    }
+    .header .tel b{
+        font-size: 18px;
+    }
+}
+.top{
+    background: #f7f7f7;
+}
+.top .layout{
+    height: 30px;
+    background: #f7f7f7;
+}
+.top_left{
+    float: left;
+    width: 115px;
+    line-height: 30px;
+    background-image: url(top-line.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.top_left a{
+    font-size: 12px;
+    color: #888888;
+}
+ .top_nav{
+    float: left;
+}
+.top_about{
+    float: right;
+}
+.top_right{
+    float: right;
+}
+.top_right li{
+    position: relative;
+    cursor: pointer;
+    float: left;
+    margin-left: 20px;
+    padding-left: 24px;
+    line-height: 30px;
+    background-image: url(top-icon.png);
+    background-repeat: no-repeat;
+    font-size: 12px;
+    color: #888888;
+}
+.top_right li:hover .ewm_box{
+    display: block;
+}
+.top_right .ewm_box{
+    display: none;
+    position: absolute;
+    z-index:9;
+    background: #fff;
+    left:50px;
+    top: 30px;
+    margin: 0 -84px;
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+}
+.top_right .wechat{
+    background-position: 0 -70px;
+}
+.top_right .wb{
+    background-position: 0 -29px;
+}
+.top_right .qq{
+    background-position: 0 6px;
+}
+
+.header{
+    height: 100px;
+}
+.logo_box{
+    float: left;
+    padding-top: 27px;
+}
+.logo_box .logo_img{
+    padding-right: 20px;
+}
+.border{
+    background-image: url(border-icon.png);
+    background-repeat: no-repeat;
+}
+#search{
+    color: #999999;
+}
+.search_box{
+    position: relative;
+    float: left;
+    margin-left: 80px;
+    margin-top: 34px;
+    width: 398px;
+    height: 36px;
+    border-top:1px solid #e0e0e0;
+    border-bottom:1px solid #e0e0e0;
+}
+.border{
+    position: absolute;
+    width: 3px;
+}
+.search_box .border{
+    height: 36px;
+}
+.search_box .icon_left{
+    left: -3px;
+    background-position: 0 0;
+}
+.search_box .icon_right{
+    right: -3px;
+    background-position: 0 -38px;
+}
+.search_box input{
+    margin: 1px 0 0 1px;
+    height: 34px;
+    padding-left: 11px;
+    line-height: 34px;
+    width: 353px;
+}
+.search_box a{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(search.png);
+    margin-top: 8px;
+    vertical-align: top;
+}
+
+.header .tel{
+    float: right;
+    width: 170px;
+}
+.tel span{
+    padding: 0 10px;
+}
+.tel i{
+    display: inline-block;
+    width: 30px;
+    height: 1px;
+    vertical-align: middle;
+    background-image: url(tel-line.png);
+}
+.tel p{
+    margin-top: 19px;
+    font-size: 12px;
+    color: #555555;
+    line-height: 37px;
+}
+.header .tel b{
+    font-family: "微软雅黑";
+    font-size: 24px;
+    color: #ff7200;
+    font-weight: bold;
+}
+
+.nav{
+    background: #00c38e;
+    height: 45px;
+}
+.nav .layout{
+    background: #00c38e;
+    line-height: 44px;
+}
+.nav a{
+    color: #fff;
+    font-size: 16px;
+}
+.nav .line{
+    float: left;
+    margin:16px 7px 0;
+    width: 1px;
+    height: 12px;
+    background: #66dbbb;
+}
+.nav dl{
+    float: left;
+}
+.nav dd a{
+    font-size: 14px;
+}
+.nav_index{
+    float: left;
+    margin-right: 10px;
+    width: 80px;
+    background: #00b382;
+    text-align: center;
+}
+.nav dt,.nav dd{
+    float: left;
+    text-align: center;
+}
+.nav dt{
+    width: 80px;
+}
+.nav dd{
+    padding: 0 5px;
+    margin-left: 10px;
+}
+.nav dt:hover,
+.nav dd:hover{
+    background: #00b382;
+}
+
+
+
+
+.bottom{
+    background: #f6f6f6;
+}
+.bottom .layout{
+    background: #f6f6f6;
+    height: 252px;
+    box-sizing: border-box;
+    padding-top: 42px;
+}
+.bottom_left{
+    float: left;
+}
+.bottom dl{
+    float: left;
+    width: 127px;
+}
+.bottom dt{
+    line-height: 32px;
+    font-size: 14px;
+    color: #333;
+}
+.bottom dd{
+    line-height: 34px;
+}
+.bottom dd a{
+    font-size: 12px;
+    color: #777777;
+}
+.bottom dd a:hover{
+    color: #333;
+}
+
+.bottom_center{
+    float: left;
+    box-sizing: border-box;
+    width: 352px;
+    height: 170px;
+    border-right: 1px solid #e9e9e9;
+    border-left: 1px solid #e9e9e9;
+    padding: 13px 50px 0;
+}
+.bottom_center ul{
+    margin-left: -30px;
+}
+.ewm_box{
+    padding: 8px;
+    background: #fff;
+}
+.ewm_box img{
+    width: 96px;
+    height: 96px;
+}
+.bottom_center li{
+    float: left;
+    width: 110px;
+    text-align: center;
+    margin-left: 30px;
+}
+.bottom_center li p{
+    line-height: 32px;
+    font-size: 12px;
+    color: #777777;
+}
+.bottom_right{
+    float: right;
+    width: 200px;
+}
+.bottom_right .tel {
+    width: auto;
+    height: 68px;
+}
+.bottom_right .tel b{
+    font-family: "Georgia";
+    font-size: 30px;
+    color: #333;
+}
+.bottom_right .tel span{
+    font-size: 14px;
+}
+.bottom_right p{
+     margin-top: 0;
+}
+.bottom_right a{
+    position: relative;
+    display: block;
+    width: 196px;
+    margin-left: 1px;
+    height: 48px;
+    margin-top: 10px;
+    background: #00b685;
+    text-align: center;
+    line-height: 48px;
+    font-size: 20px;
+    color: #fff;
+}
+.bottom_right a .border{
+    height: 48px;
+}
+.bottom_right a .icon_left{
+    left: -1px;
+    background-position: -23px 0;
+}
+.bottom_right a .icon_right{
+    right: -2px;
+    background-position: -32px 0;
+}
+
+.last{
+    background: #323232;
+}
+.last .layout{
+    height: 52px;
+    background: #323232;
+}
+.last p{
+    color: #bbbbbb;
+    line-height: 52px;
+}
+.last p a{
+    color: #bbbbbb;
+    padding-right: 3px;
+}
+.last p a:hover{
+    color: #00b685;
+}
+
+
+/* 美国院校排名 */
+.school h3{
+    font-size: 18px;
+    color: #333;
+    line-height: 56px;
+}
+.school dd{
+    transition: .5s;
+    width: 278px;
+    height: 64px;
+    border-left: 2px solid #e2e2e2;
+    margin-bottom: 5px;
+}
+.school .logo{
+    float: left;
+    padding: 7px 7px 0;
+}
+.school .name{
+    float: left;
+    margin-top: 4px;
+}
+.school p{
+    line-height: 34px;
+    font-size: 16px;
+    color: #333;
+}
+.school span{
+    font-size: 14px;
+    color: #999;
+}
+.school a{
+    float: right;
+    font-size: 12px;
+    color: #999;
+    margin: 30px 15px 0 0;
+}
+
+.school dd:hover{
+    background: #f8f8f8;
+    border-left: 2px solid #00c38e;
+}
+.school dd:hover a{
+    color: #00c38e;
+}
+
+
+
+/* 专业排名 */
+.major h3{
+    font-size: 18px;
+    color: #333;
+    line-height: 40px;
+    margin-top: 30px;
+    border-bottom: 1px solid #dddddd;
+}
+.major dd{
+    position: relative;
+    padding-left: 31px;
+    box-sizing: border-box;
+    height: 56px;
+    border-bottom: 1px solid #dddddd;
+}
+.major .num{
+    position: absolute;
+    margin-top: 8px;
+    width: 33px;
+    height: 31px;
+    left: 3px;
+}
+.major span{
+    position: absolute;
+    font-size: 36px;
+    font-family: "Georgia";
+    font-style: italic;
+    color: #ccc;
+    transition: .5s;
+}
+.major .one{
+    font-size: 40px;
+}
+.major .xx{
+    position: absolute;
+    width: 22px;
+    height: 31px;
+    background: url(xx.png);
+    top: 8px;
+    left: 7px;
+}
+.major .sj{
+    position: absolute;
+    left: 8px;
+    top: 9px;
+    display: block;
+    height: 0;
+    width: 0;
+    border-right: 20px solid #fff;
+    border-bottom:  0px solid transparent;
+    border-top:  30px solid transparent;
+}
+.major dd:hover .num span{
+    color: #00c38e;
+}
+
+.major a{
+    display: block;
+    font-size: 14px;
+    color: #555;
+    line-height: 56px;
+   
+}
+
+
+/* 前行准备类似 */
+.ready h3{
+    font-size: 18px;
+    color: #333;
+    padding-top: 19px;
+    line-height: 40px;
+    border-bottom: 1px solid #dddddd;
+}
+.ready dd{
+    line-height: 50px;
+    border-bottom: 1px solid #dddddd;
+    background-position: 0 24px;
+    padding-left: 12px;
+    background-image: url(yuan-icon.png);
+    background-repeat: no-repeat;
+    
+}
+.ready dd:hover{
+    background-position: 0 -33px;
+}
+.ready dd:hover a{
+    color: #00b382;
+}
+.ready dd a{
+    font-size: 14px;
+    color: #555;
+}
+
+
+
+/* 课程推荐 */
+.main_right_center dt h3 {
+    padding-top: 20px;
+    line-height: 40px;
+    border-bottom: 1px solid #dddddd;
+    font-size: 18px;
+    color: #333;
+}
+.main_right_center dd{
+    height: 96px;
+    box-sizing: border-box;
+    padding:15px 0;
+    background: none;
+    border-bottom: 1px dashed #dddddd;
+}
+.tj_img{
+    float: left;
+    width: 115px;
+    height: 66px;
+    overflow: hidden;
+}
+.tj_img img{
+    transition: .5s;
+}
+.tj_img:hover img{
+    transform: scale(1.2)
+}
+.main_right_center{
+    height: 440px;
+    overflow: hidden;
+}
+.main_right_center .text{
+    float: left;
+    margin-left: 15px;
+    width: 145px;
+}
+.main_right_center .text a{
+    max-width: 145px;
+    display: block;
+    line-height: 24px;
+    font-size: 14px;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.text a:hover{
+    color: #00b382;
+}
+.main_right_center .text p{
+    line-height: 20px;
+    color: #666;
+}
+
