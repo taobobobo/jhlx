@@ -6,6 +6,8 @@
     .layout{
         overflow: hidden;
     } 
+    body{
+        width:1000px;
 }
 .top{
     background: #f7f7f7;
