@@ -916,6 +916,8 @@
 }
 .main_three_top{
     margin-top: 19px;
+    padding-bottom: 40px;
+    border-bottom:1px solid #e6e6e6;
 }
 .main_three_top h4{
     line-height: 74px;
@@ -993,6 +995,9 @@
 }
 .cmnct_list li:hover a{
     color: #00b685;
+}
+.main_three_bottom{
+    margin-top: 28px;
 }
 .main_three_bottom h4{
     display: inline-block;
